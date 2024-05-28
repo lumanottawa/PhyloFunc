@@ -3,10 +3,10 @@ Wang and Li et al., PhyloFunc: Phylogeny-informed Functional Distance as a New E
 
 ## This repository is a series of python codes to:
 1) Generate PhyloFunc to incorporate microbiome phylogeny to inform on metaproteomic functional distance.
-2) preprocess data,Compute PhyloFunc ditance matrix, evaluate the performance by PCoA and machine learning-based classification algorithms.
+2) preprocess data,compute PhyloFunc ditance matrix, evaluate the performance by machine learning-based classification algorithms.
 
 ## Original dataset and example output
-1) The original dataset is given in "./1_dataset_results/". Decompress any .zip files.
+1) The original dataset is given in "./1_datasets_search_results/". Decompress any .zip files.
 2) Example outputs are given in "./2_data_processing/".
 
 ## System requirements:
