@@ -16,6 +16,6 @@ Wang and Li et al., PhyloFunc: Phylogeny-informed Functional Distance as a New E
 
 ## How to run:
 1) Download data, example outputs and codes in this repository.
-2) Open each .py code fiel: PhyloFunc_toy_dataset.py, PhyloFunc_mouse_gut_dataset.py, or PhyloFunc_human_gut_dataset.py using Spyder.
-3) Follow the steps to run through preprocessing raw data, generating branches of tree, creating taxon-function table, and calculating the PhyloFunc distance. The output files will be created automatically during running the code to verify the calculation process of the program.
+2) Open each .py code file: PhyloFunc_toy_dataset.py, PhyloFunc_mouse_gut_dataset.py, or PhyloFunc_human_gut_dataset.py using Spyder IDE.
+3) Follow the steps to run codes through preprocessing raw data, generating branches of tree, creating taxon-function table, and calculating the PhyloFunc distance. The output files will be created automatically during running the code to verify the calculation process of the program.
 4) Besides, R codes for computing other three distances (./1_PhyloFunc calculation/3_human gut microbiome and 1_PhyloFunc calculation/2_mouse gut microbiome/four cases/original dataset) and Python codes for evaluating the performance of distances (./2_data_processing/2_Evaluation/) are provided.
