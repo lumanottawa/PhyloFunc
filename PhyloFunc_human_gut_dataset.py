@@ -386,7 +386,7 @@ for a in range(2, column_len):
         Gb_taxon = extend_taxon_composition_merge_all_nodes.iloc[:, b-1]
         Gab_function = pd.concat([Ga_function, Gb_function], axis=1)
         Gab_taxon = pd.concat([Ga_taxon, Gb_taxon], axis=1)
-        wUnifrac=0
+        Phylofunc=0
         first_column_value = weighted_function_composition_percentage['taxon'].unique()
         for t in first_column_value:
             if t=='Node114':#set the weight of root
@@ -398,6 +398,6 @@ for a in range(2, column_len):
             dab = 1 - sum(origin_data_norm.apply(lambda x: min(x), axis=1)) / sum(origin_data_norm.apply(lambda x: max(x), axis=1))
             a_abundance=Gab_taxon[(Gab_taxon["taxon"]==t)].iloc[0, 1] 
             b_abundance=Gab_taxon[(Gab_taxon["taxon"]==t)].iloc[0, 2] 
-            wUnifrac=wUnifrac+dab*weight_taxon*a_abundance*b_abundance
-        dab_matrix_norm.at[Gab_function.columns.values[2], Gab_function.columns.values[3]] = wUnifrac
+            Phylofunc=Phylofunc+dab*weight_taxon*a_abundance*b_abundance
+        dab_matrix_norm.at[Gab_function.columns.values[2], Gab_function.columns.values[3]] = Phylofunc
         dab_matrix_norm.to_csv('PhyloFunc_distance.csv')
