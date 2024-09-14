@@ -63,7 +63,7 @@ collect_branches(rename_tree.root)
  
 with open("tree_rename.csv", mode='w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Precedent", "consequent", "branch_length"])
+    writer.writerow(["Precedent", "consequent","number_of_children","branch_length"])
     for branches in all_branches:
         if len(branches)==12:
             writer.writerow(branches[8:12])
