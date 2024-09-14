@@ -222,7 +222,7 @@ rename_tree=rename_leaf_nodes(tree_with_names.root,taxon_name_change_table)
 collect_branches(rename_tree.root)   
 with open("tree_rename.csv", mode='w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Precedent", "consequent", "length"])
+    writer.writerow(["Precedent", "consequent","number_of_children", "length"])
     for branches in all_branches:
         if len(branches)==12:
             writer.writerow(branches[8:12])
