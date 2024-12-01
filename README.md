@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/d1b20210-a748-4f18-88ca-150339877ad6)
+![image](https://github.com/user-attachments/assets/d10e67cf-b1bd-4c0e-93a0-d630aed8f0c0)
+
 # PhyloFunc distance method
 Wang and Li et al., PhyloFunc: Phylogeny-informed Functional Distance as a New Ecological Metric for Metaproteomic Data Analysis
 
