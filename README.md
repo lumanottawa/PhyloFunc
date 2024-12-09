@@ -1,7 +1,7 @@
-![image](https://github.com/user-attachments/assets/d10e67cf-b1bd-4c0e-93a0-d630aed8f0c0)
+![Uploading image.png…]()
 
 # PhyloFunc distance method
-Wang and Li et al., PhyloFunc: Phylogeny-informed Functional Distance as a New Ecological Metric for Metaproteomic Data Analysis
+Wang and Li et al., PhyloFunc: Phylogeny-informed Functional Distance for Metaproteomics.
 
 ## This repository is a series of python codes to:
 1. Generate PhyloFunc to incorporate microbiome phylogeny to inform on metaproteomic functional distance.
