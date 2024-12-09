@@ -1,4 +1,4 @@
-![PhyloFunc_logo2_smallest](https://github.com/user-attachments/assets/3fe7cc6a-eb59-484c-a8b8-8ad13bf4de5c)
+![PhyloFunc_logo2_smallest](https://github.com/user-attachments/assets/90bd7067-c3cb-40dd-a640-8bff9402732c)
 
 # PhyloFunc distance method
 Wang and Li et al., PhyloFunc: Phylogeny-informed Functional Distance for Metaproteomics.
